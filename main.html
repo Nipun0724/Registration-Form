@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registraion Form</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="heading">Your details</div>
+    <br />
+    <div class="form-details">
+      <form>
+        <label for="nameInput">
+          Name<input type="text" class="input" /><br /> </label
+        ><br />
+        <label for="genderInput">
+          Gender:<input type="radio" name="gender" value="male" />Male
+          <input type="radio" name="gender" value="female" />Female<input
+            type="radio"
+            name="gender"
+            value="other"
+          />Other<br /> </label
+        ><br />
+        <label for="dobInput">
+          Date Of Birth<input type="date" class="input" /><br /> </label
+        ><br />
+        <label for="emailInput">
+          Email ID<input type="email" class="input" /><br /> </label
+        ><br />
+        <label for="time"
+          >Course type
+          <select>
+            <option>Foundation Core</option>
+            <option>Hybrid Batch</option>
+            <option>Weekend Batch</option>
+          </select> </label
+        ><br />
+        <br />
+
+        <label for="course"
+          >Course options:<input type="checkbox" />Maths<input
+            type="checkbox"
+          />Physics <input type="checkbox" />Chemistry<input
+            type="checkbox"
+          />Biology <input type="checkbox" />ComputerScience </label
+        ><br />
+        <br />
+        <label for="q1"
+          >Course Outcome<br /><textarea
+            name="ans1"
+            id=""
+            cols="35"
+            rows="5"
+            class="input"
+          ></textarea></label
+        ><br />
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>
